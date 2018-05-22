@@ -1,0 +1,155 @@
+body{
+	background-color: #efbbe0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url("img/pad.gif");
+}
+.circle{
+	width: 170px;
+	height: 170px;
+	border-radius: 50%;
+	border:15px solid #b3fff4;
+	background-color:#ec4949;
+	top: 87px;position: relative;
+	margin: auto;
+	top: 6px;
+}
+.box{
+	width: 300px;
+	height:250px;
+	background-color:#b3fff4;
+	margin: auto;
+	border-radius: 18px;
+	margin-top: -90px;
+
+}
+#min{
+	height:30%;
+    width: 0.2em;
+	background:#b3fff4;
+	bottom: 50%;
+	left: 48%;
+	position: absolute;
+	transform-origin: bottom center;
+	
+}	
+#hour{
+	height: 25%;
+    width: 0.2em;
+	background:#b3fff4; 
+	bottom: 50%;
+	right: 50%;
+	position: absolute;
+	transform-origin: bottom center;
+}
+#sec{
+	height:42%;
+	width: 0.2em;
+	background:#b3fff4;
+	bottom: 50%;
+	right:50%;
+	position: absolute;
+	transform-origin:bottom center;
+}	
+#daymonth{
+	padding-top: 120px;
+	text-align: center;
+	font-size: 	35px;
+	color: #ec4949;
+}
+#year{
+	text-align: center;
+	font-size: 35px;
+	color: #ec4949;
+}
+.small{
+	width:15px;
+	height:15px;
+	background-color:#b3fff4;
+	border-radius: 50%;
+	margin: auto;
+	position: absolute;
+	bottom: 45%;
+	left:44%;
+	transform-origin: bottom center;
+
+}
+.head1{
+	text-align: center;
+	color: #0a0a75;
+}
+p{
+
+	position: relative;
+	
+}
+.twelve{
+text-align: center;
+top:0px;
+color: #b3fff4;
+}
+
+.three{
+	left:129px;
+	top:32px;
+	color: #b3fff4;
+}
+
+.six{
+	left: 67px;
+	bottom: -60px;
+	color: #b3fff4;
+}
+.nine{
+	bottom: 30px;
+	left: 3px;
+	color: #b3fff4;
+}
+
+#day_left{
+	width: 80%;
+    text-align: center;
+    font-size: 45px;
+    margin: auto;
+    margin-top: 55px;
+    font-weight: bold;
+    color:#ec4949;
+    /*background-color: white;*/
+}
+span{
+	font-size: 35px;
+    color: #0a0a75;
+    /*font-weight: bold;*/
+}
+
+#last_period_date{
+	padding: 10px 10px 5px 15px;
+    font-size: 20px;
+    text-align: center;
+    border:1px solid #0a0a75;
+    color:#ec4949;
+}
+#period_cycle{
+	padding: 10px 10px 5px 15px;
+    font-size: 20px;
+    text-align: center;
+    border:1px solid  #0a0a75;
+    color:#ec4949;
+}
+.main{
+	width:100%;
+	margin-top: 20px;
+}
+
+.submit{
+	padding: 8px 25px;
+    font-size: 100%;
+    background-color: #b3fff4;
+}
+
+.clean{
+	padding: 8px 25px;
+    font-size: 100%;
+    margin-top: 3%;
+    background-color: #b3fff4;
+}

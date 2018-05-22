@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>mensuration clock</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" href="img/clock3.jpeg" type="image/jpeg" sizes="25x25">
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Snowstorm/20131208/snowstorm.js"=></script>
+</head>
+<body>
+<div class="container">
+	<h1 class="head1" style="font-size: 45px;">Mensuration Clock</h1>
+	<div class="circle">
+		<p class="twelve">12</p>
+		<p class="three">3</p>
+		<p class="six">6</p>
+		<p class="nine">9</p>
+		<div class="small"></div>
+		<div id="hour"></div>
+		<div id="min"></div>
+	    <div id="sec"></div>
+	</div>
+	<div class="box" align="centre">
+		<p id="daymonth"></p>
+		<p id="year"></p>
+	</div>
+	<div class="main">
+		<center>
+			<span>Last Period Date</span>
+			<br>
+			<input type="text" name="last_period_date" placeholder="Enter your last period date" id="last_period_date">
+		</center>
+			<br>
+		<center>
+			<span>Period Cycle</span>
+			<br>
+			<input type="text" name="last_period_date" placeholder="Enter your period cycle" id="period_cycle">
+		</center>
+	</div>
+		<center>
+		<input type="button" value="Submit" onclick="submit()" class="submit">
+		<input type="button" value="Clear" onclick="clean()" class="clean">
+		</center>
+	
+	<div id="day_left"></div>
+</div>
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>
